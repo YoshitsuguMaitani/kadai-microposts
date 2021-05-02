@@ -53,3 +53,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 #ページネーションの追加
 gem "kaminari"
+
+gem 'pry-byebug', group: :development
