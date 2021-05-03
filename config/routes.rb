@@ -6,6 +6,7 @@ Rails.application.routes.draw do
     delete 'logout', to: 'sessions#destroy'
     
     get "signup", to: "users#new"
+    
     #フォロー中のユーザーとフォローされているユーザー一覧を表示するページ
     resources :users, only: [:index, :show, :create] do
       member do
